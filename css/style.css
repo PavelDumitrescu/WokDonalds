@@ -1,0 +1,197 @@
+body {
+  background: linear-gradient(0deg, rgb(220, 220, 220) 0%, rgba(240, 240, 240, 1) 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  color: inherit;
+  background-color: white;
+  z-index: 10;
+  filter: drop-shadow(0 1em 0.5em white);
+
+  /*animation-duration: 2s;
+  animation-name: slidein; */
+}
+
+/*header icons*/
+.icon {
+  width: 5vw;
+  margin: 0 1vw;
+  filter: drop-shadow(-0.1em 0.1em 0.1em lightgray);
+}
+
+.icon:hover {
+  filter: drop-shadow(-0.5em 0.5em 0.5em lightgray) grayscale(1) opacity(0.5);
+
+}
+
+/*footer*/
+footer {
+  color: inherit;
+  background-color: rgb(200, 200, 200);
+/*  display: flex;*/
+  justify-content: space-between;
+}
+
+/*texts*/
+.text {
+  font-size: 3em;
+  font-family: 'Rubik', sans-serif;
+}
+
+.smtext {
+  line-height: 4vw;
+  margin: 2vw 4vw;
+  color: rgb(140, 140, 140);
+  background-color: inherit;
+  font-size: 1.5em;
+  font-family: 'Rubik', sans-serif;
+  list-style: none;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textright {
+  text-align: right;
+}
+
+/*main content*/
+.specdeal {
+  width: 100%;
+  filter: drop-shadow(-0.1em 0.1em 0.1em black);
+  border-radius: 2vw 2vw 2vw 2vw;
+}
+
+.deal {
+  width: 45vw;
+  padding-bottom: 1vh;
+  font-size: 6em;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0 1vw;
+  filter: drop-shadow(-0.1em 0.1em 0.05em gray);
+  border-radius: 2vw 2vw 2vw 2vw;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+
+
+/* Menu drop down ---------------------------------------- */
+
+/* The container <div> - needed to position the dropdown content */
+.orderdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.menucontent {
+  justify-content: space-between;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.menucontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.menucontent a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+/* Info drop down ---------------------------------------- */
+
+/* The container <div> - needed to position the dropdown content */
+.infodropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.infocontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.infocontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.infocontent a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0
+  }
+
+  to {
+   opacity: 1
+ }
+}
