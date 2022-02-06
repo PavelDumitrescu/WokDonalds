@@ -324,9 +324,36 @@ td {
 
 
 
+/* restaurants.html locations */
+
+.locations {
+  padding-bottom: 1vh;
+  padding-top: 4vh;
+  font-size: 5em;
+  font-family: 'Bebas Neue', cursive;
+  filter: drop-shadow(-0.5vw 0.5vw 0.25vw rgba(0,0,0,0.3));
+  border-radius: 1vw 1vw 1vw 1vw;
+}
+
+.countryflagplacement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 
+.locationcountry {
+  flex: 0 28%;
+  height: 16vh;
+  margin-top: 8%;
+  border: 3px dashed black;
+}
 
+.flag {
+  width: 18vw;
+  height: 16vh;
+
+}
 
 
 

@@ -1,0 +1,26 @@
+.container {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+ grid-template-rows: 0.25fr 2fr 0.5fr 0.7fr;
+ grid-gap: 4em;
+}
+
+header {
+ grid-column: 1/-1;
+ grid-row: 1/2;
+}
+
+.one {
+ grid-column: 2/6;
+ grid-row: 2/3;
+}
+
+.two {
+ grid-column: 1/5;
+ grid-row: 3/4;
+}
+
+footer {
+  grid-column: 1/-1;
+  grid-row: 4/5;
+}
