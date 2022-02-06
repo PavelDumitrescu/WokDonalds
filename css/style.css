@@ -68,6 +68,16 @@ footer {
   list-style: none;
 }
 
+.quote {
+  padding-top: 9vw;
+  line-height: 4vw;
+  margin: 0vw 4vw;
+  color: rgb(170, 170, 170);
+  background-color: inherit;
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .textleft {
   text-align: left;
 }
