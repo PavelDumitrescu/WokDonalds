@@ -1,5 +1,6 @@
 body {
-  background: radial-gradient(circle, lightgray 0%, white 100%);
+  /*background: radial-gradient(circle, lightgray 0%, white 100%);*/
+  background-image: url("../img/whitepattern.jpeg");
 }
 
 * {
@@ -13,8 +14,7 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  color: inherit;
-  background-color: white;
+  background-image: url("../img/greypattern.jpeg");
   z-index: 20;
   filter: drop-shadow(0 1vw 0.5vw rgba(0,0,0,0.2));
 
@@ -112,14 +112,13 @@ footer {
 /* Drop down style ---------------------------------------- */
 
 /* The container <div> - needed to position the dropdown content */
-.orderdropdown, .infodropdown {
+.menudropdown, .infodropdown {
   position: relative;
   display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .menucontent, .infocontent {
-  justify-content: space-between;
   display: none;
   position: absolute;
   color: inherit;
@@ -155,7 +154,6 @@ footer {
 .show {
   display:block;
 }
-
 
 
 
