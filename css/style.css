@@ -223,6 +223,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
+  filter: drop-shadow(-0.5vw 0.5vw 0.25vw rgba(0,0,0,0.3));
 }
 
 .active, .dot:hover {
@@ -260,6 +261,74 @@ footer {
     filter: blur(0) grayscale(0);
   }
 }
+
+
+
+
+
+/* menu-wokdeals.html */
+
+aside {
+  position: relative;
+  margin: 1em 1em;
+  justify-content: center;
+  color: inherit;
+  background-color: #f1f1f1;
+  box-shadow: -0.1em 0.1em 1em rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+aside button {
+  margin: 0;
+  width: 100%;
+  color: black;
+  background-color: inherit;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2em;
+  padding: 0.5em 0;
+  border: none;
+  text-decoration: none;
+  display: block;
+}
+
+aside button:hover {
+  color: inherit;
+  background-color: #ddd
+}
+
+aside li {
+  list-style: none;
+}
+
+table {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Bebas Neue', cursive;
+  filter: drop-shadow(-0.1em 0.1em 1em rgba(0,0,0,0.2));
+}
+
+th {
+  font-size: 2em;
+}
+
+td {
+  background-color: lightgray;
+  border-radius: 0.5vw;
+  padding: 0.5em;
+}
+
+.menuimg {
+  width: 19vw;
+}
+
+
+
+
+
+
+
+
+
 
 /*
 @keyframes slidein {

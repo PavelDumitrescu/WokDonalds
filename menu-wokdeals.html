@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WokDonald's</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/grid-menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,200&family=Rubik:wght@300&display=swap" rel="stylesheet">
@@ -17,23 +17,19 @@
         <!-- Header (left side) -->
         <div>
             <!-- Logo button -->
-            <img src="./img/mc-logo.png" alt="mcdonalds logo" class="icon mc-logo" onclick="./index.html" onkeypress="./index.html">
+            <img src="./img/mc-logo.png" alt="mcdonalds logo" class="icon mc-logo" onclick="location.href='./index.html'">
 
             <!-- Menu button -->
             <div class="menudropdown">
               <img src="./img/arrow-down-icon.png" alt="arrow down" class="icon menubtn" onclick="menuFunction()" onkeypress="menuFunction()">
               <div id="myMenu" class="menucontent">
                 <ul>
-                  <li><a href="#">WokDeals</a></li>
+                  <li><a href="./menu-wokdeals.html">WokDeals</a></li>
                   <li><a href="#">Burgers</a></li>
-                  <li><a href="#">Sides and Snacks</a></li>
-                </ul>
-                <ul>
+                  <li><a href="#">Sides & Snacks</a></li>
                   <li><a href="#">Asia Specials</a></li>
                   <li><a href="#">Soups</a></li>
                   <li><a href="#">Bing Chilling</a></li>
-                </ul>
-                <ul>
                   <li><a href="#">Drinks</a></li>
                   <li><a href="#">Secret Menu</a></li>
                 </ul>
@@ -55,105 +51,51 @@
           </div>
         </div>
       </header>
+
+      <aside>
+        <ul>
+          <li><button onclick="location.href='./index.html'">WokDeals</button></li>
+          <li><button onclick="location.href='./index.html'">Burgers</button></li>
+          <li><button onclick="location.href='./index.html'">Slides & Snacks</button></li>
+          <li><button onclick="location.href='./index.html'">Asia Specials</button></li>
+          <li><button onclick="location.href='./index.html'">Soups</button></li>
+          <li><button onclick="location.href='./index.html'">Bing Chilling</button></li>
+          <li><button onclick="location.href='./index.html'">Drinks</button></li>
+          <li><button onclick="location.href='./index.html'">Secret Menu</button></li>
+        </ul>
+      </aside>
+
       <section class="one">
-        <p class="deal" id="title">
-          <u>
-          FRIEND DEAL, NOW
-          </u>
-        </p>
-
-        <!-- Slideshow container -->
-        <div class="specdeal">
-
-          <!-- Images -->
-          <div class="mySlides fade">
-            <img src="./img/burger1.jpeg" alt="burgir" class="slideimg">
-            <div class="captext">DivorceMeal™</div>
-          </div>
-
-          <div class="mySlides fade">
-            <img src="./img/burger1.jpeg" alt="burgir" class="slideimg">
-            <div class="captext">DogMeal™</div>
-          </div>
-
-          <div class="mySlides fade">
-            <img src="./img/burger1.jpeg" alt="burgir" class="slideimg">
-            <div class="captext">TaiwanMeal™</div>
-          </div>
-
-          <!-- Buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <!-- Dots -->
-        <div class="dotcontainer">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Name</th>
+            <th>Name</th>
+          </tr>
+          <tr>
+            <td><img src="./img/no-cc-burger1.png" alt="Burger" class="menuimg"></td>
+            <td><img src="./img/no-cc-burger1.png" alt="Burger" class="menuimg"></td>
+            <td><img src="./img/no-cc-burger1.png" alt="Burger" class="menuimg"></td>
+          </tr>
+        </table>
       </section>
 
       <section class="two">
-        <p class="quote">“When you have a dream, you've got to grab it and never let go.”
-          <br>
-          — Carol brunett
-        </p>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Name</th>
+            <th>Name</th>
+          </tr>
+          <tr>
+            <td><img src="./img/no-cc-burger1.png" alt="Burger" class="menuimg"></td>
+            <td><img src="./img/no-cc-burger1.png" alt="Burger" class="menuimg"></td>
+            <td><img src="./img/no-cc-burger1.png" alt="Burger" class="menuimg"></td>
+          </tr>
+        </table>
       </section>
 
-      <section class="three">
-        <p class="deal">
-          <u>
-          HOW TO GRAB FRIES
-          </u>
-        </p>
-        <img src="./img/burger1.jpeg" alt="burgir" class="deal left">
-        <p class="text textleft">
-          Grab your WokFries™ with  your hand and put the "food" in your mouth, proceed to chew the contents of your mouth until the size is good.
-        </p>
-      </section>
-
-      <section class="four">
-        <p class="quote">“Death is not the opposite of life, but a part of it.”
-          <br>
-          — Haruki Murakami
-        </p>
-      </section>
-
-      <section class="five">
-        <p class="deal">
-          <u>
-          1 MINUTE CHICKEN
-          </u>
-        </p>
-        <img src="./img/chicken1.jpeg" alt="burgir" class="deal right">
-        <p class="text textright">
-          Order the brand new, one minute, medium-rare, WokChicken™. Slimey. Soft. Delicious.
-        </p>
-      </section>
-
-      <section class="six">
-        <p class="quote">“Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship.”
-          <br>
-          — Buddha
-        </p>
-      </section>
-
-      <section class="seven">
-        <p class="deal">
-          <u>
-          SAVOURY BAT SOUP
-          </u>
-        </p>
-        <img src="./img/burger1.jpeg" alt="burgir" class="deal left">
-        <p class="text textleft">
-          The Government has announced a 5-step plan to close the border, introduce self-determination for travelers and increase the use of MIQ facilities.
-        </p>
-      </section>
-
-      <footer class="eight">
+      <footer>
         <ul class="smtext">
           <li>©2022 WokDonald's. All rights reserved</li>
           <li>©2022 WokDonald's. All rights reserved</li>
@@ -161,9 +103,7 @@
           <li>©2022 WokDonald's. All rights reserved</li>
         </ul>
       </footer>
-  </div>
-  <script src="js/main.js">
-
-  </script>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
