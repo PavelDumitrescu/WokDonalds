@@ -2,7 +2,7 @@
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
  grid-template-rows: 0.25fr 2fr 0.7fr;
- grid-gap: 4em;
+ grid-gap: 4vw;
 }
 
 header {

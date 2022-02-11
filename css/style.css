@@ -25,7 +25,7 @@ header {
 /*header icons*/
 .icon {
   cursor: pointer;
-  width: 6vw;
+  width: 4em;
   margin: 0 1vw;
   filter: drop-shadow(-0.1vw 0.1vw 0.1vw rgba(0,0,0,0.2));
 }
@@ -46,11 +46,11 @@ footer {
 
 /*texts*/
 #title {
-  font-size: 7em;
+  font-size: 8vw;
 }
 
 .text {
-  font-size: 3em;
+  font-size: 3vw;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -70,7 +70,7 @@ footer {
   margin: 0vw 4vw;
   color: rgb(170, 170, 170);
   background-color: inherit;
-  font-size: 3em;
+  font-size: 3vw;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -87,7 +87,7 @@ footer {
 .deal {
   width: 45vw;
   padding-bottom: 1vh;
-  font-size: 6em;
+  font-size: 7vw;
   font-family: 'Bebas Neue', cursive;
   margin: 0 1vw;
   filter: drop-shadow(-0.5vw 0.5vw 0.25vw rgba(0,0,0,0.3));
@@ -351,7 +351,12 @@ td {
 
 }
 
-
+@media (max-width:1000px) {
+  .deal {
+    width: 70vw;
+    margin: 0 3vw;
+  }
+}
 
 /*
 @keyframes slidein {
