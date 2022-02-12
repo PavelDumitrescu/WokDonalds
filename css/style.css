@@ -47,6 +47,7 @@ footer {
 /*texts*/
 #title {
   font-size: 8vw;
+  display: inline;
 }
 
 .text {
@@ -301,13 +302,17 @@ table {
 }
 
 th {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 td {
   background-color: lightgray;
   border-radius: 0.5vw;
-  padding: 0.5em;
+  padding: 0.5vw;
+}
+
+.smallview {
+  display: none;
 }
 
 .menuimg {
@@ -387,6 +392,43 @@ td {
     float: none;
   }
 
+  .largeview {
+    display: none;
+  }
+
+  .smallview {
+    display: contents;
+  }
+
+/* menu-wokdeals.html */
+
+  .menuimg {
+    width: 35vw;
+  }
+
+  .menuleft {
+    margin: 0vw 5vw 0vw 10vw;
+  }
+
+  .menuright {
+    margin: 0vw 10vw 0vw 5vw;
+  }
+
+  td {
+    background-color: inherit;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width:300px) {
+  .icon {
+    width: 3em;
+  }
+
+  .menucontent a, .infocontent a {
+    font-size: 0.7em;
+  }
 }
 
 /*
