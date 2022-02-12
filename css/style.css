@@ -55,11 +55,10 @@ footer {
 }
 
 .smtext {
-  line-height: 4vw;
   margin: 2vw 4vw;
   color: rgb(140, 140, 140);
   background-color: inherit;
-  font-size: 1.5em;
+  font-size: 3vw;
   font-family: 'Rubik', sans-serif;
   list-style: none;
 }
@@ -178,9 +177,8 @@ footer {
   padding: 1vw;
   color: red;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 7vw;
   transition: 0.6s ease;
-  user-select: none;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -196,11 +194,11 @@ footer {
 /* Caption text */
 .captext {
   filter: invert(50%);
-  font-size: 2em;
+  font-size: 3vw;
   font-family: 'Rubik', sans-serif;
-  padding: 8px 12px;
+  padding: 0.5vw 1vw;
   position: absolute;
-  bottom: 8px;
+  bottom: 0.5vw;
   width: 100%;
   text-align: center;
 }
@@ -353,9 +351,38 @@ td {
 
 @media (max-width:1000px) {
   .deal {
-    width: 70vw;
-    margin: 0 3vw;
+    width: 80vw;
+    margin: 0 10vw;
+    font-size: 11vw;
   }
+
+  .text {
+    text-align: center;
+    font-size: 6vw;
+    margin: 0 10vw;
+  }
+
+  .smtext {
+    font-size: 4vw;
+  }
+
+  .quote {
+    display: none;
+  }
+
+  .dot {
+    height: 2.5vw;
+    width: 2.5vw;
+  }
+
+  .textleft, .left {
+    float: none;
+  }
+
+  .textright, .right {
+    float: none;
+  }
+
 }
 
 /*
