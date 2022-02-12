@@ -124,11 +124,10 @@ footer {
 
 /* Links inside the dropdown */
 .menucontent a, .infocontent a {
-  margin: 0;
   color: black;
   background-color: inherit;
   font-family: 'Rubik', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 1em 1.5em;
   text-decoration: none;
   display: block;
@@ -371,8 +370,13 @@ td {
   }
 
   .dot {
-    height: 2.5vw;
-    width: 2.5vw;
+    height: 2vw;
+    width: 2vw;
+  }
+
+  .menucontent a, .infocontent a {
+    font-size: 1em;
+    padding: 0.8em 0.6em;
   }
 
   .textleft, .left {
