@@ -6,8 +6,16 @@ function menuFunction() {
   document.getElementById("myMenu").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+// Info drop down ----------------------------------------
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function infoFunction() {
+  document.getElementById("myInfo").classList.toggle("show");
+}
+
 window.onclick = function(event) {
+  // Close the dropdown menu if the user clicks outside of it
   if (!event.target.matches('.menubtn')) {
     var menuDropdowns = document.getElementsByClassName("menucontent");
     var i;
@@ -18,21 +26,7 @@ window.onclick = function(event) {
       }
     }
   }
-}
-
-
-
-
-// Info drop down ----------------------------------------
-
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function infoFunction() {
-  document.getElementById("myInfo").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
+  // Close the dropdown menu if the user clicks outside of it
   if (!event.target.matches('.infobtn')) {
     var dropdowns = document.getElementsByClassName("infocontent");
     var i;
@@ -44,9 +38,6 @@ window.onclick = function(event) {
     }
   }
 }
-
-
-
 
 var slideIndex = 1;
 showSlides(slideIndex);
