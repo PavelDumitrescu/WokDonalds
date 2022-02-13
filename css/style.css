@@ -65,7 +65,7 @@ footer {
 }
 
 .quote {
-  padding-top: 9vw;
+  padding-top: 20vw;
   line-height: 4vw;
   margin: 0vw 4vw;
   text-align: center;
@@ -404,7 +404,11 @@ td {
 /* menu-wokdeals.html */
 
   .menuimg {
-    width: 35vw;
+    width: 31vw;
+    background-color: lightgray;
+    padding: 2vw;
+    border-radius: 1vw;
+    filter: drop-shadow(-0.1em 0.1em 1em rgba(0,0,0,0.2));
   }
 
   .menuleft {
