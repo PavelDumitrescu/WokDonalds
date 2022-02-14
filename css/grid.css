@@ -81,6 +81,10 @@ header {
      grid-row: 4/5;
    }
 
+   .six {
+     display: none;
+   }
+
    .seven {
      grid-column: 1/-1;
      grid-row: 5/6;
