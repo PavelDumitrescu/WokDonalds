@@ -43,7 +43,6 @@ window.onclick = function(event) {
 
 
 
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
