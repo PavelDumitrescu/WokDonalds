@@ -83,6 +83,14 @@ footer {
   text-align: right;
 }
 
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
 /*main content*/
 
 .deal {
@@ -194,7 +202,6 @@ footer {
 
 /* Caption text */
 .captext {
-  filter: invert(50%);
   font-size: 3vw;
   font-family: 'Rubik', sans-serif;
   padding: 0.5vw 1vw;
@@ -318,6 +325,7 @@ td {
 
 .menuimg {
   width: 19vw;
+  border-radius: 0.5vw;
 }
 
 
