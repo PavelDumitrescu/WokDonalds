@@ -76,11 +76,7 @@ footer {
 }
 
 .textleft {
-  text-align: left;
-}
-
-.textright {
-  text-align: right;
+  margin-left: 1vw;
 }
 
 .white {
