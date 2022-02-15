@@ -479,7 +479,16 @@ td {
   }
 }
 
+@media (max-width:500px) {
+  th {
+    font-size: 1em;
+  }
+}
+
 @media (max-width:300px) {
+  th {
+    font-size: 0.9em;
+  }
   .icon {
     width: 3em;
   }
