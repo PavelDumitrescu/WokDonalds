@@ -443,8 +443,8 @@ td {
 /*about us page*/
 
 .aboutustitle {
-  padding-bottom: 10vh;
-  padding-top: 12vh;
+  padding-bottom: 8vh;
+  padding-top: 4vh;
   font-size: 4vw;
   font-family: 'Bebas Neue', cursive;
   text-align: center;
@@ -462,9 +462,8 @@ td {
 
 .communism {
   width: 50vw;
-  height: 30vh;
   margin-left: 8vw;
-  margin-top: 16vh;
+  margin-top: 6vh;
 }
 
 @media (max-width:1000px) {
