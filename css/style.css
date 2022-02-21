@@ -539,10 +539,6 @@ td {
   th {
     font-size: 1em;
   }
-  .flag {
-    width: 22vw;
-    height: 19vw;
-  }
 }
 
 @media (max-width:300px) {
