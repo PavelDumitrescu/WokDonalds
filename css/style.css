@@ -452,6 +452,20 @@ td {
   clear: both;
 }
 
+.aboutustext {
+  font-size: 1.75vw;
+  font-family: 'Rubik', sans-serif, cursive;
+  line-height: 160%;
+  padding: 1em;
+  border: 3px dashed black;
+}
+
+.communism {
+  width: 50vw;
+  height: 30vh;
+  margin-left: 8vw;
+  margin-top: 16vh;
+}
 
 @media (max-width:1000px) {
   .deal {
