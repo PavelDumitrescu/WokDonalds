@@ -396,8 +396,7 @@ td {
 
 .faqtitle {
   padding-bottom: 12vh;
-  padding-top: 6vh;
-  font-size: 3vw;
+  font-size: 4vw;
   font-family: 'Bebas Neue', cursive;
   text-align: center;
   filter: drop-shadow(-0.5vw 0.5vw 0.25vw rgba(0,0,0,0.3));
