@@ -60,7 +60,7 @@ footer {
   margin: 2vw 4vw;
   color: rgb(140, 140, 140);
   background-color: inherit;
-  font-size: 3vw;
+  font-size: 4vw;
   font-family: 'Rubik', sans-serif;
   list-style: none;
 }
@@ -525,7 +525,7 @@ td {
   }
 
   .smtext {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   .quote {
