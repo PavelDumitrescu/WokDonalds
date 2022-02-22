@@ -26,6 +26,7 @@ header {
 .icon {
   cursor: pointer;
   width: 4em;
+  height: inherit;
   margin: 0 1vw;
   filter: drop-shadow(-0.1vw 0.1vw 0.1vw rgba(0,0,0,0.2));
 }
@@ -322,6 +323,7 @@ td {
 
 .menuimg {
   width: 19vw;
+  height: inherit;
   border-radius: 0.5vw;
 }
 
