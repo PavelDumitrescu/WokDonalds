@@ -444,7 +444,7 @@ td {
   border: 3px dashed black;
 }
 
-@media (max-width:750px) {
+@media (max-width:950px) {
   .faqleft {
     display: block;
     float: none;
