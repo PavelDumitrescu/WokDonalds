@@ -30,3 +30,9 @@ footer {
     grid-template-rows: 0.7fr 5fr 2fr 0.7fr;
   }
 }
+
+@media (min-height:650px) {
+  .container {
+    grid-template-rows: 0.7fr 5fr 2.2fr 0.7fr;
+  }
+}
