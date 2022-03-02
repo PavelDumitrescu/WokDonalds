@@ -43,6 +43,12 @@ header {
   display: none;
 }
 
+.title {
+  font-size: 3vw;
+  font-family: 'Rubik', sans-serif;
+  margin: auto;
+}
+
 /*footer*/
 footer {
   color: inherit;
