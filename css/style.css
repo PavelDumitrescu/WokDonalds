@@ -496,7 +496,7 @@ td {
 }
 
 .aboutustext {
-  font-size: 1.75vw;
+  font-size: 2vw;
   font-family: 'Rubik', sans-serif, cursive;
   line-height: 160%;
   padding: 1em;
@@ -511,7 +511,7 @@ td {
 
 @media (max-width: 1000px) {
   .aboutustext {
-    font-size: 2.75vw;
+    font-size: 3vw;
   }
   .aboutustitle {
     font-size: 6vw;
