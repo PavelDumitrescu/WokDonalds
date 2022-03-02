@@ -39,6 +39,10 @@ header {
   margin: 0 5vw;
 }
 
+.hidden {
+  display: none;
+}
+
 /*footer*/
 footer {
   color: inherit;
