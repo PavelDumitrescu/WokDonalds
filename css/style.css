@@ -353,6 +353,7 @@ td {
   flex: 0 28%;
   margin-top: 8%;
   border: 3px dashed black;
+  background-color: white;
 }
 
 .locationcountry:hover {
@@ -361,7 +362,6 @@ td {
 
 .flag {
   width: 18vw;
-  height: 15vw;
 }
 
 /*contacts.html*/
