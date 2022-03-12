@@ -93,10 +93,12 @@ footer {
 
 .white {
   color: white;
+  background-color: inherit;
 }
 
 .black {
   color: black;
+  background-color: inherit;
 }
 
 /*main content*/
@@ -193,6 +195,7 @@ footer {
   top: 50%;
   padding: 1vw;
   color: red;
+  background-color: inherit;
   font-weight: bold;
   font-size: 7vw;
   transition: 0.6s ease;
@@ -231,6 +234,7 @@ footer {
   width: 1vw;
   margin: 0 0.5vw;
   background-color: white;
+  color: inherit;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
@@ -240,6 +244,7 @@ footer {
 
 .active, .dot:hover {
   background-color: red;
+  color: inherit;
 }
 
 /* Fading animation */
@@ -365,6 +370,7 @@ td {
   margin-top: 8%;
   border: 3px dashed black;
   background-color: white;
+  color: inherit;
 }
 
 .locationcountry:hover {
@@ -432,6 +438,7 @@ td {
   border: 2px dashed black;
   float: left;
   background-color: rgba(255, 245, 0, 0.72);
+  color: inherit;
 }
 
 .faqright {
@@ -444,6 +451,7 @@ td {
   border: 2px dashed black;
   float: right;
   background-color: rgba(255, 245, 0, 0.72);
+  color: inherit;
 }
 
 .question {
@@ -457,6 +465,87 @@ td {
   width: 40vw;
   margin-left: 12.5vw;
   border: 3px dashed black;
+}
+
+@media (max-width:1000px) {
+  .aboutustext {
+    font-size: 4vw;
+  }
+  .aboutustitle {
+    font-size: 6vw;
+  }
+
+  .deal {
+    width: 80vw;
+    margin: 0 10vw;
+    font-size: 11vw;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 6vw;
+    margin: 0 10vw;
+  }
+
+  .smtext {
+    font-size: 5vw;
+  }
+
+  .quote {
+    display: none;
+  }
+
+  .dot {
+    height: 2vw;
+    width: 2vw;
+  }
+
+  .menucontent a, .infocontent a {
+    font-size: 1em;
+    padding: 0.8em 0.6em;
+  }
+
+  .textleft, .left {
+    float: none;
+  }
+
+  .textright, .right {
+    float: none;
+  }
+
+  .largeview {
+    display: none;
+  }
+
+  .smallview {
+    display: contents;
+  }
+
+/* menu-wokdeals.html */
+
+  .menuimg {
+    width: 31vw;
+    background-color: lightgray;
+    color: inherit;
+    padding: 2vw;
+    border-radius: 1vw;
+    filter: drop-shadow(-0.1em 0.1em 1em rgba(0,0,0,0.2));
+  }
+
+  .menuleft {
+    margin: 0vw 5vw 0vw 10vw;
+  }
+
+  .menuright {
+    margin: 0vw 10vw 0vw 5vw;
+  }
+
+  td {
+    background-color: inherit;
+    color: inherit;
+    border-radius: 0;
+    padding: 0;
+  }
 }
 
 @media (max-width:950px) {
@@ -518,87 +607,6 @@ td {
   width: 50vw;
   margin-left: 8vw;
   margin-top: 6vh;
-}
-
-@media (max-width: 1000px) {
-  .aboutustext {
-    font-size: 4vw;
-  }
-  .aboutustitle {
-    font-size: 6vw;
-  }
-}
-
-@media (max-width:1000px) {
-  .deal {
-    width: 80vw;
-    margin: 0 10vw;
-    font-size: 11vw;
-  }
-
-  .text {
-    text-align: center;
-    font-size: 6vw;
-    margin: 0 10vw;
-  }
-
-  .smtext {
-    font-size: 5vw;
-  }
-
-  .quote {
-    display: none;
-  }
-
-  .dot {
-    height: 2vw;
-    width: 2vw;
-  }
-
-  .menucontent a, .infocontent a {
-    font-size: 1em;
-    padding: 0.8em 0.6em;
-  }
-
-  .textleft, .left {
-    float: none;
-  }
-
-  .textright, .right {
-    float: none;
-  }
-
-  .largeview {
-    display: none;
-  }
-
-  .smallview {
-    display: contents;
-  }
-
-/* menu-wokdeals.html */
-
-  .menuimg {
-    width: 31vw;
-    background-color: lightgray;
-    padding: 2vw;
-    border-radius: 1vw;
-    filter: drop-shadow(-0.1em 0.1em 1em rgba(0,0,0,0.2));
-  }
-
-  .menuleft {
-    margin: 0vw 5vw 0vw 10vw;
-  }
-
-  .menuright {
-    margin: 0vw 10vw 0vw 5vw;
-  }
-
-  td {
-    background-color: inherit;
-    border-radius: 0;
-    padding: 0;
-  }
 }
 
 @media (max-width:500px) {
